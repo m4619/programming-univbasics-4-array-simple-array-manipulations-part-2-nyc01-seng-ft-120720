@@ -18,5 +18,6 @@ def using_delete(instructors, string)
   instructors.delete("Steven")
 end 
 
-def using_delete_at()
+def using_delete_at(famous_robots, integer)
+  famous_robots.delete_at 
 end 
